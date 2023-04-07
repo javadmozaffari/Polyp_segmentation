@@ -1,28 +1,29 @@
 # Polyp_segmentation
-### Repository of the paper: A novel real-time polyp segmentation system for a new dataset evaluation.
+### Repository of the paper: ColonGen: An efficient real-time polyp segmentation system based on CNNs and transformers on a new comprehensive dataset.
 
 #### This repository contains:
 * Implementation of a novel deep learning model to segment the polyp images.
-* Dataset file that introduced in the paper.
+* The dataset files that were used in the study.
 * Comprehensive dataset includes CVC-300, CVC-ColonDB, CVC-ClinicDB, Kvasir-seg, ETIS-Larib, PolypGen, Neopolyp-small, SUN-SEG, 
 
 ## Model implementation  
 training:
 ```
-!python tools/train.py configs/custom_config.py <num-of-gpus-to-use> --work-dir /path/to/save/checkpoint
+python Train.py --train_path dataset/TrainDataset/ --test_path dataset/TestDataset/
 ```
     
     
 testing:
 ```
-!python tools/test.py configs/custom_config.py <num-of-gpus-to-use> --work-dir /path/to/save/checkpoint
+python Test.py 
 ``` 
     
 ### Requirements  
-* pytorch = 1.10.0  
-* cuda = 11.1  
-* timm = 0.6.7  
-* mmcv-full = 1.5.0  
+* pytorch = 1.13.0  
+* cuda = 11.6  
+* mmcv= 1.5.0  
+* timm   
+* thop
 
 ## dataset
 ##### Download the training and testing dataset from this link: [Google Drive](https://drive.google.com/drive/folders/170354jP6Rwg57u6qcK0u5szO9eWBPgVP?usp=sharing)
@@ -50,18 +51,6 @@ dataset folders:
     |       |-- masks
 
 
-## Our dataset
-##### Download the training and testing dataset from this link: [Google Drive]()
-
-dataset folders:  
-    
-    |-- TrainDataset
-    |   |-- images
-    |   |-- masks
-    |-- TestDataset
-    |   |-- images
-    |   |-- masks
-    
 
 ## Comprehensive dataset
 ##### Download the training and testing dataset from this link: [Google Drive]()
