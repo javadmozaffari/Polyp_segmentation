@@ -75,34 +75,30 @@ dataset folders:
     |   |-- C14_CVC_ColonDB
     |       |-- images
     |       |-- masks
-    |   |-- seen_dataset
-    |       |-- C1_polypgen
-    |           |-- images
-    |           |-- masks
-    |       |-- C2_polypgen
-    |           |-- images
-    |           |-- masks
-    |       |-- C3_polypgen
-    |           |-- images
-    |           |-- masks
-    |       |-- C4_polypgen
-    |           |-- images
-    |           |-- masks
-    |       |-- C7_kvasir
-    |           |-- images
-    |           |-- masks
-    |       |-- C8_our_dataset
-    |           |-- images
-    |           |-- masks
-    |       |-- C9_CVC_Clinic
-    |           |-- images
-    |           |-- masks
-    |       |-- C11_neopolyp_small
-    |           |-- images
-    |           |-- masks
-    |       |-- C12_SUN-SEG
-    |           |-- images
-    |           |-- masks
+    |   |-- C1_polypgen
+    |       |-- images
+    |       |-- masks
+    |   |-- C2_polypgen
+    |       |-- images
+    |       |-- masks
+    |   |-- C3_polypgen
+    |       |-- images
+    |       |-- masks
+    |   |-- C4_polypgen
+    |       |-- images
+    |       |-- masks
+    |   |-- C7_kvasir
+    |       |-- images
+    |       |-- masks
+    |   |-- C8_CVC_Clinic
+    |       |-- images
+    |       |-- masks
+    |   |-- C11_neopolyp_small
+    |       |-- images
+    |       |-- masks
+    |   |-- C12_SUN-SEG
+    |       |-- images
+    |       |-- masks
 
 ## Acknowledgement
 Part of our code is built based on [Polyp-PVT](https://github.com/DengPingFan/Polyp-PVT).
