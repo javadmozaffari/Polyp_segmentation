@@ -1,5 +1,5 @@
 # Polyp_segmentation
-### Repository of the paper: ColonGen: An efficient real-time polyp segmentation system based on CNNs and transformers on a new comprehensive dataset.
+### Repository of the paper: ColonGen: An efficient polyp segmentation system for generalization improvement using a new comprehensive dataset.
 
 #### This repository contains:
 * Implementation of a novel deep learning model to segment the polyp images.
@@ -26,7 +26,7 @@ python Test.py
 * thop
 
 ## dataset
-##### Download the training and testing dataset from this link: [Google Drive](https://drive.google.com/drive/folders/170354jP6Rwg57u6qcK0u5szO9eWBPgVP?usp=sharing)
+##### Download the training and testing dataset from this link: [Google Drive](https://drive.google.com/drive/folders/1UPLtqNFby6YEckr_GDPtK1VlCMbcSgUE?usp=share_link)
 
 dataset folders:  
     
@@ -105,7 +105,7 @@ dataset folders:
     |           |-- masks
 
 ## Acknowledgement
-The implementation is based on [MMSegmentation](https://github.com/open-mmlab/mmsegmentation).
+Part of our code is built based on [Polyp-PVT](https://github.com/DengPingFan/Polyp-PVT).
 
 ## Citation
 Please cite our paper if you find the work useful:
